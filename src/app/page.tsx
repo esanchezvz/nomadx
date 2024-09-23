@@ -1,3 +1,9 @@
+import { EmbeddedDemo } from "./components/embeded-demo";
+
 export default function Home() {
-  return <h1>NOMADX</h1>;
+  return (
+    <main>
+      <EmbeddedDemo />
+    </main>
+  );
 }
