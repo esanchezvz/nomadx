@@ -159,7 +159,7 @@ export default function Home() {
 
         <Link
           className="p-2 max-w-48 w-full text-background bg-brand-primary rounded-3xl flex font-bold items-center justify-center uppercase"
-          href="#"
+          href="#demo"
         >
           AR DEMO
         </Link>
@@ -178,7 +178,7 @@ export default function Home() {
           </h3>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 place-items-center">
             <div className="w-full md:col-span-2">
-              <EmbeddedDemo className="" />
+              <EmbeddedDemo id="demo" />
             </div>
 
             <div className="flex flex-col gap-10">
@@ -190,9 +190,9 @@ export default function Home() {
 
               <Link
                 className="p-2 max-w-48 w-full text-background bg-brand-primary rounded-3xl flex font-bold items-center justify-center uppercase"
-                href="#"
+                href="#contact"
               >
-                Try Me
+                Contact
               </Link>
             </div>
           </div>
@@ -295,7 +295,7 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className="bg-brand-primary grid grid-cols-6">
+      <footer className="bg-brand-primary grid grid-cols-6" id="contact">
         <div className="relative h-full w-full min-h-96 col-span-6 md:hidden">
           <Image
             src={footerImg}
