@@ -49,7 +49,7 @@ export const EmbeddedDemo = (
   return (
     <iframe
       ref={ref}
-      src="/demo"
+      src="https://ianua.interactivevalley.com/index.html"
       style={{
         width: "100%",
         minHeight: 600,
